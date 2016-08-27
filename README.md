@@ -1,1 +1,2 @@
-# pythonfun is my journey through python projects to better understand the language. Enjoy! 
+# This file is dedicated to natural language processing in python. 
+
