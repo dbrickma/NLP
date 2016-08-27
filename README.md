@@ -1,2 +1,2 @@
-# This file is dedicated to natural language processing in python. 
+# A natural language processing python adventure. Replete with NLTK, Scikit-Learn, and gensim.  
 
