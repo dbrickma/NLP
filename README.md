@@ -3,7 +3,7 @@
   
   Executive Summary (2) 
   
-  The main tools used were pandas, matplotlib and scikit-learn. Cleaning the initial dataset took a few steps. 
+  For this project, I developed Random Forest Regression models to predict total average inpatient charges across the country. The main tools used were pandas, matplotlib and scikit-learn. Cleaning the initial dataset took a few steps. 
   
   Step 1: Eliminate spaces in column strings
   Step 2: Eliminate dollar signs in row values
