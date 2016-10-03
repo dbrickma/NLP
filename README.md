@@ -1,5 +1,5 @@
 # (1) A natural language processing python adventure. Replete with NLTK, Scikit-Learn, and gensim.  
- # (2) Data cleaning, modeling, and visualization--total average inpatient charges. The dataset was downloaded in csv form from Kaggle. 
+# (2) Data cleaning, modeling, and visualization--total average inpatient charges. The dataset was downloaded in csv form from Kaggle. 
   
   Executive Summary (2) 
   
