@@ -6,7 +6,7 @@
 #3) https://www.r-bloggers.com/r-for-deep-learning-i-build-fully-connected-neural-network-from-scratch/
 #4) http://www.holehouse.org/mlclass/
 
-#Results: Summary--Decreasing the regularization term significantly sped up convergence for the sigmoid activation function nnet. With the new reg term the sigmoid nnet beat the ReLU nnet. 
+#Results: Summary--Decreasing the regularization term significantly sped up convergence for the sigmoid activation function nnet. With the new reg term the sigmoid nnet beat the nnet. 
 #Results on Test Set; true class accuracy 
 
 #nmod9 <- nnet4(trn.X, Y, step_size = 0.8, reg = 0.0001, h = 10, niteration=8000)
@@ -61,7 +61,7 @@ nnet4 <- function(X, Y, step_size = 0.5, reg = 0.001, h = 10, niteration){
   
   # gradient descent loop to update weight and bias
   for (i in 0:niteration){
-    # hidden layer, ReLU activation
+    # hidden layer, Sigmoid activation
     hidden.layer <- sweep(X %*% W ,2, b, '+')
     hidden_layer <- sigmoid(hidden.layer)
     # class score
