@@ -18,10 +18,10 @@
 #table(preds9)
 #1   2   3   4   5   6   7   8   9  10 
 #102 100 102  97 106 100 100 101  98  94 
-# error9 <- (sum(abs(vp8 - y8)))/nrow(ten.Y)
+# error9 <- (sum(abs(vp9 - y9)))/nrow(ten.Y)
 #error9
-#[1] 0.036
-#accuracy: 96.4%
+#[1] 0.022
+#accuracy: 97.8%
 
 library(ade4)
 library(sigmoid)
