@@ -1,5 +1,5 @@
 #Sigmoid Activation Function Hidden Layer Neural Net in R 
-#Data--MINST vai Andrew Ng's Stanford Machine Learning Course 
+#Data--MINST via Andrew Ng's Stanford Machine Learning Course 
 #Helpful Sources: 
 #1) Andrew Ng's Coursera Lectures
 #2) http://junma5.weebly.com/data-blog/build-your-own-neural-network-classifier-in-r
