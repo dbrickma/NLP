@@ -51,7 +51,7 @@ getfun <- function(x){
 #Clean the HTML with htmltidy package 
 
 htmlcln <- function(y){
- 
+ res <- GET(y)
   cleaned <- tidy_html(content(res, as="text", encoding="UTF-8"),
                        list(TidyDocType="html5"))
   return(cleaned)
