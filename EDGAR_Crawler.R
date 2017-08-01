@@ -1,3 +1,4 @@
+#This is the one-off version. If you would like to conact me about the large-scale version, feel free to do so. 
 library(Rcrawler)
 library(httr)
 library(htmltidy)
