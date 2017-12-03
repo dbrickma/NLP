@@ -11,6 +11,8 @@ def main():
     pc.strpsplt()
     pc.p_split()
     pc.unlister()
+    for i in range(1, 4):
+        pc.n_splitter(i)
     pc.p_cleaner()
     pc.p_space()
     pc.p_checker()

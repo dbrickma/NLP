@@ -22,6 +22,12 @@ class profanity_checker(listcleaner):
     def m_reader(self,filename):
         self.msglst = open(filename).readlines()
         return
+
+    #splits based upon 'n' spaces and adds to the previous list
+    def n_splitter(self,n):
+        i = iter(self.msglst)
+        self.msglst.append(list(map(" ".join, zip(*[i] * n))))
+        return
     #determines if message contains profanity, then reveals to user what profanity words were used
     def p_checker(self):
         c = [i for i in self.msglst if i in self.proflst]
