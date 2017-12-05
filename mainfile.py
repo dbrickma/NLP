@@ -14,6 +14,7 @@ def main():
     for i in range(1, 4):
         pc.n_splitter(i)
     pc.p_cleaner()
+    pc.m_cleaner()
     pc.p_space()
     pc.p_checker()
 

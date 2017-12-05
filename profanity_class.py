@@ -17,6 +17,8 @@ class profanity_checker(listcleaner):
     def p_cleaner(self):
         self.stop_rid()
         return
+    def m_cleaner(self):
+        self.stop_msg()
 
     #reads message
     def m_reader(self,filename):

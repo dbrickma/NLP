@@ -10,6 +10,11 @@ class listcleaner(object):
     def stop_rid(self):
         self.proflst[:] = [[x for x in sub if x not in self.stopwords] for sub in self.proflst]
         return
+    def stop_msg(self):
+        self.msglst = [x for x in self.msglst if x not in [i for i in self.stopwords]]
+
+        return
+
     #Unlists list in another list
     def unlister(self):
         self.msglst = [x for i in self.msglst for x in i]
